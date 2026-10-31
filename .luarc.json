@@ -1,0 +1,27 @@
+{
+  "runtime.version": "Lua 5.1",
+  "diagnostics.globals": [
+    "QuestXDB",
+    "SLASH_QUESTX1",
+    "SlashCmdList",
+    "CreateFrame",
+    "CopyTable",
+    "EventUtil",
+    "C_QuestLog",
+    "C_Item",
+    "GetQuestLink",
+    "PlaySound",
+    "SOUNDKIT",
+    "IsAltKeyDown",
+    "GameTooltip",
+    "GameTooltip_SetTitle",
+    "GameTooltip_AddInstructionLine",
+    "GameTooltip_Hide",
+    "UIErrorsFrame",
+    "GREEN_FONT_COLOR",
+    "RED_FONT_COLOR",
+    "HIGHLIGHT_FONT_COLOR",
+    "strtrim",
+    "hooksecurefunc"
+  ]
+}

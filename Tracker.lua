@@ -1,5 +1,5 @@
 -- QuestX: Tracker.lua
--- Puts a small red X after each quest title in the objective tracker.
+-- Puts a small red X in the top-right corner of each quest in the objective tracker.
 -- Clicking the X abandons that quest straight away.
 
 local _, ns = ...
