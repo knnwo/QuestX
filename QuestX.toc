@@ -1,6 +1,6 @@
 ## Interface: 120105
 ## Title: QuestX
-## Notes: Adds a small red X to each quest in the objective tracker. Click it to abandon the quest.
+## Notes: Adds a small red X to each quest in the objective tracker and quest log. Click it to abandon the quest.
 ## Version: @project-version@
 ## IconAtlas: common-icon-redx
 ## Category: Quests
