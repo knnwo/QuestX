@@ -6,7 +6,8 @@ local _, ns = ...
 local L = ns.L
 
 local BUTTON_ATLAS = "common-icon-redx"
-local TEXT_GAP     = 4    -- space between the quest title and the X
+local OFFSET_X     = 0    -- nudge the X left (-) or right (+)
+local OFFSET_Y     = 1    -- nudge the X down (-) or up (+)
 local NORMAL_ALPHA = 0.8  -- the X brightens to full on mouseover
 
 -- Tracker modules whose blocks are quests you can abandon.
@@ -127,21 +128,17 @@ local function CreateButton(block)
     return button
 end
 
--- Right after the title text; pinned to the end of the line for long titles.
+-- Top-right corner of the quest's title line, the same spot for every quest.
+-- The title's right edge stops short of Blizzard's quest item and group
+-- finder buttons, so the X lines up just left of those when a quest has one.
 local function PositionButton(button, block)
     local header = block.HeaderText
     local _, fontHeight = header:GetFont()
     local size = math.floor((fontHeight or 12) + 2.5)
     button:SetSize(size, size)
 
-    local x = header:GetUnboundedStringWidth() + TEXT_GAP
-    local maxX = header:GetWidth() - size
-    if maxX > 0 and x > maxX then
-        x = maxX
-    end
-
     button:ClearAllPoints()
-    button:SetPoint("TOPLEFT", header, "TOPLEFT", x, 1)
+    button:SetPoint("TOPRIGHT", header, "TOPRIGHT", OFFSET_X, OFFSET_Y)
 end
 
 local function UpdateBlock(block)
