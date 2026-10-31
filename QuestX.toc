@@ -9,5 +9,11 @@
 ## X-Website: https://github.com/knnwo/QuestX
 ## X-License: MIT
 
-Core.lua
-Tracker.lua
+Locales\enUS.lua
+
+Core\Core.lua
+Core\Abandon.lua
+Core\Commands.lua
+
+Modules\Tracker.lua
+Modules\QuestLog.lua

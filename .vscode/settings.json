@@ -21,6 +21,8 @@
         "GameTooltip_AddInstructionLine",
         "GameTooltip_Hide",
         "SOUNDKIT",
-        "UIErrorsFrame"
+        "UIErrorsFrame",
+        "QuestScrollFrame",
+        "QuestLogQuests_Update"
     ]
 }
