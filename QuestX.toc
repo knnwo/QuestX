@@ -1,0 +1,11 @@
+## Interface: 120105
+## Title: QuestX
+## Notes: Adds a small red X after each quest in the objective tracker. Click it to abandon the quest.
+## Author: ContraZoom
+## Version: 0.1.0
+## Category: Quests
+## IconAtlas: common-icon-redx
+## SavedVariables: QuestXDB
+
+Core.lua
+Tracker.lua
