@@ -16,6 +16,7 @@ ns.L = {
     HELP_HEADER   = "commands:",
     OPT_ENABLED   = "Red X in the quest tracker",
     OPT_QUEST_LOG = "Red X in the quest log",
+    OPT_PARAGON   = "Shine on paragon turn-ins on the world map",
     OPT_ALT       = "Require Alt-click",
     OPT_TOOLTIP   = "Tooltip on the X",
     OPT_CHAT      = "Chat message after abandoning",

@@ -11,6 +11,7 @@ One click, one abandoned quest. QuestX puts a small red X on each quest in the o
 - **Only where it makes sense.** The X only shows on quests the game lets you abandon.
 - **Optional safety.** Turn on Alt-click so a stray click can't throw a quest away.
 - **Know what you dropped.** A chat message names the abandoned quest and any quest items that were removed with it.
+- **Spot your paragon chests.** Paragon reward quests get a pulsing gold shine on the world map, so they stand out from normal turn-ins.
 
 ![The red X in the quest log](screenshots/questlog.png)
 
@@ -29,6 +30,7 @@ One click, one abandoned quest. QuestX puts a small red X on each quest in the o
 | `/questx` | Show the commands and what each setting is set to |
 | `/questx toggle` | Show or hide the red X in the objective tracker |
 | `/questx log` | Show or hide the red X in the quest log |
+| `/questx paragon` | Show or hide the shine on paragon turn-ins on the world map |
 | `/questx alt` | Require Alt-click to abandon |
 | `/questx tooltip` | Show or hide the tooltip on the X |
 | `/questx chat` | Show or hide the chat message after abandoning |

@@ -14,7 +14,9 @@ Locales\enUS.lua
 
 Core\Core.lua
 Core\Abandon.lua
+Core\Paragon.lua
 Core\Commands.lua
 
 Modules\Tracker.lua
 Modules\QuestLog.lua
+Modules\WorldMap.lua

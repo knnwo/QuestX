@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Paragon reward quests now have a pulsing gold shine around their question mark on the world map, so your paragon chests stand out from normal turn-ins. Switch it off with `/questx paragon`.
+
 ## 1.0.0
 
 First release.

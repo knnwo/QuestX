@@ -23,6 +23,8 @@
         "SOUNDKIT",
         "UIErrorsFrame",
         "QuestScrollFrame",
-        "QuestLogQuests_Update"
+        "QuestLogQuests_Update",
+        "WorldMapFrame",
+        "QuestDataProviderMixin"
     ]
 }

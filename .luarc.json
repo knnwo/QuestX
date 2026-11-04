@@ -24,6 +24,9 @@
     "strtrim",
     "hooksecurefunc",
     "QuestScrollFrame",
-    "QuestLogQuests_Update"
+    "QuestLogQuests_Update",
+    "C_Reputation",
+    "WorldMapFrame",
+    "QuestDataProviderMixin"
   ]
 }

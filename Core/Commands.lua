@@ -7,6 +7,7 @@ local L = ns.L
 local COMMANDS = {
     { name = "toggle",  key = "enabled",     label = L.OPT_ENABLED },
     { name = "log",     key = "questLog",    label = L.OPT_QUEST_LOG },
+    { name = "paragon", key = "paragon",     label = L.OPT_PARAGON },
     { name = "alt",     key = "requireAlt",  label = L.OPT_ALT },
     { name = "tooltip", key = "showTooltip", label = L.OPT_TOOLTIP },
     { name = "chat",    key = "chatMessage", label = L.OPT_CHAT },

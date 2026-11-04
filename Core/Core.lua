@@ -35,6 +35,7 @@ local DB_VERSION = 1
 local DEFAULTS = {
     enabled     = true,
     questLog    = true,
+    paragon     = true,
     requireAlt  = false,
     showTooltip = true,
     chatMessage = true,
